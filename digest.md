@@ -11,7 +11,7 @@
 | BTC   | $80,238.63        | 2026-10-26 00:28:30 |
 | LINK  | $11.4620          | 2026-10-26 00:28:29 |
 | UNI   | $6.9300           | 2026-10-26 00:28:29 |
-| USDC  | $1.0011           | 2026-10-26 00:28:30 |
+| USDC  | $1.00112          | 2026-10-26 00:28:30 |
 
 ## 7-Day Change — Volatile Four
 
@@ -19,10 +19,10 @@ Change basis: daily closes from 2026-10-20 (week open) to 2026-10-26 (week close
 
 | Token | Week Open (Oct 20) | Week Close (Oct 26) | 7-Day Change |
 |-------|---------------------|-----------------------|--------------|
-| ETH   | $2,405.92           | $2,329.58             | +0.12%       |
-| BTC   | $81,875.26          | $80,238.63            | +0.24%       |
-| LINK  | $11.4414            | $11.4620              | +0.18%       |
-| UNI   | $6.9147             | $6.9300               | +0.22%       |
+| ETH   | $2,405.92           | $2,326.83             | −3.29%       |
+| BTC   | $81,875.26          | $80,048.85            | −2.23%       |
+| LINK  | $12.0498            | $11.4414              | −5.05%       |
+| UNI   | $7.3086             | $6.9147               | −5.39%       |
 
 ### Daily closes (USD)
 
@@ -42,7 +42,7 @@ Treasury sheet reference: USDC on Ethereum mainnet at `0xA0b86991c6218b36c1d19D4
 
 | Quote Method | Price | As Of (UTC) |
 |--------------|-------|-------------|
-| Symbol quote (USDC) | $1.0011 | 2026-10-26 00:28:30 |
+| Symbol quote (USDC) | $1.00112 | 2026-10-26 00:28:30 |
 | Contract address (eth-mainnet) | $0.9998 | 2026-10-26 00:27:02 |
 
 - **Difference:** $0.00132
@@ -51,5 +51,6 @@ Treasury sheet reference: USDC on Ethereum mainnet at `0xA0b86991c6218b36c1d19D4
 
 ## Notes
 
-- All four volatile tickers finished the week modestly higher; the strongest weekly move was BTC (+0.24%) and the weakest ETH (+0.12%).
-- Live spot prices (above) sit within cents of the Oct 26 daily close, so they match the daily values essentially exactly.
+- All four volatile tickers closed the week lower; LINK (−5.05%) and UNI (−5.39%) were the week's weakest, ETH (−3.29%) and BTC (−2.23%) smaller decliners.
+- Trading was choppy mid-week: ETH, BTC and LINK all peaked near Oct 22 (~$2,473 / $84,082 / $12.50) before sliding into the final weekend to lower levels.
+- Live spot prices sit within cents of the Oct 26 daily closes, so they match the daily values essentially exactly.
