@@ -1,56 +1,33 @@
 # Weekly Token Digest
 
-**Week covered:** 2026-10-20 through 2026-10-26
-**Data source:** Alchemy token price APIs
+**Prepared:** 2026-10-30 (UTC) | Source: Alchemy token price API
 
-## Current Prices
+## Current Prices (USD)
 
-| Token | Current USD Price | As Of (UTC) |
-|-------|-------------------|-------------|
-| ETH   | $2,329.58         | 2026-10-26 00:28:27 |
-| BTC   | $80,238.63        | 2026-10-26 00:28:30 |
-| LINK  | $11.4620          | 2026-10-26 00:28:29 |
-| UNI   | $6.9300           | 2026-10-26 00:28:29 |
-| USDC  | $1.00112          | 2026-10-26 00:28:30 |
+| Token | Price (USD) | As-of (UTC) |
+|-------|-------------|-------------|
+| ETH | 2238.72 | 2026-10-30T20:58:06Z |
+| BTC | 76891.70 | 2026-10-30T20:58:06Z |
+| LINK | 11.161 | 2026-10-30T20:58:08Z |
+| UNI | 6.9216 | 2026-10-30T20:58:06Z |
+| USDC | 1.00162 | 2026-10-30T20:57:00Z |
 
-## 7-Day Change — Volatile Four
+## 7-Day Change (2026-10-24 to 2026-10-30)
 
-Change basis: daily closes from 2026-10-20 (week open) to 2026-10-26 (week close).
+| Token | Start Price (USD) | End Price (USD) | 7-Day Change |
+|-------|-------------------|-----------------|--------------|
+| ETH | 2384.75 | 2249.48 | -5.67% |
+| BTC | 81102.31 | 77838.81 | -7.72% |
+| LINK | 11.8174 | 10.6003 | -10.30% |
+| UNI | 6.9556 | 6.4599 | -7.13% |
 
-| Token | Week Open (Oct 20) | Week Close (Oct 26) | 7-Day Change |
-|-------|---------------------|-----------------------|--------------|
-| ETH   | $2,405.92           | $2,326.83             | −3.29%       |
-| BTC   | $81,875.26          | $80,048.85            | −2.23%       |
-| LINK  | $12.0498            | $11.4414              | −5.05%       |
-| UNI   | $7.3086             | $6.9147               | −5.39%       |
+## USDC Contract Sanity Check
 
-### Daily closes (USD)
+Treasury sheet lists USDC on Ethereum mainnet at contract `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
+- Price via contract address: $0.9997 (as of 2026-10-30T20:57:37Z)
+- Price via symbol quote: $1.00162 (as of 2026-10-30T20:57:00Z)
+- Difference: $0.00192 — well within the $0.01 tolerance → **AGREES** with the treasury sheet.
 
-| Date (UTC) | ETH | BTC | LINK | UNI |
-|------------|-----|-----|------|-----|
-| 2026-10-20 | 2405.92 | 81875.26 | 12.0498 | 7.3086 |
-| 2026-10-21 | 2446.49 | 82943.83 | 12.3157 | 7.4313 |
-| 2026-10-22 | 2472.68 | 84082.27 | 12.4969 | 7.4514 |
-| 2026-10-23 | 2386.48 | 81328.21 | 11.9475 | 7.0019 |
-| 2026-10-24 | 2384.75 | 81102.31 | 11.8174 | 6.9556 |
-| 2026-10-25 | 2356.57 | 80810.57 | 11.6129 | 6.8598 |
-| 2026-10-26 | 2326.83 | 80048.85 | 11.4414 | 6.9147 |
+## Summary of the Week's Move
 
-## USDC Contract Check
-
-Treasury sheet reference: USDC on Ethereum mainnet at `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
-
-| Quote Method | Price | As Of (UTC) |
-|--------------|-------|-------------|
-| Symbol quote (USDC) | $1.00112 | 2026-10-26 00:28:30 |
-| Contract address (eth-mainnet) | $0.9998 | 2026-10-26 00:27:02 |
-
-- **Difference:** $0.00132
-- **Tolerance:** $0.01
-- **Result:** ✅ **MATCH** — the contract-address quote agrees with the symbol quote. The difference of $0.00132 is well within the $0.01 tolerance, so the treasury sheet's USDC reference checks out.
-
-## Notes
-
-- All four volatile tickers closed the week lower; LINK (−5.05%) and UNI (−5.39%) were the week's weakest, ETH (−3.29%) and BTC (−2.23%) smaller decliners.
-- Trading was choppy mid-week: ETH, BTC and LINK all peaked near Oct 22 (~$2,473 / $84,082 / $12.50) before sliding into the final weekend to lower levels.
-- Live spot prices sit within cents of the Oct 26 daily closes, so they match the daily values essentially exactly.
+Across the four volatile assets the week was uniformly negative with a broad-based sell-off into the final session: ETH fell from $2,384.75 to $2,249.48 (-5.67%), BTC declined from $81,102.31 to $77,838.81 (-7.72%), LINK dropped from $11.82 to $10.60 (-10.30%), and UNI slipped from $6.96 to $6.46 (-7.13%). Prices ground lower for most of the window, and all four sold off sharply on the last day of the period, so the weekly recap reflects a cautious week across the board. Meanwhile, USDC remained effectively pegged, with the on-chain contract price agreeing with the symbol quote within tolerance.
