@@ -1,33 +1,31 @@
 # Weekly Token Digest
 
-**Prepared:** 2026-10-30 (UTC) | Source: Alchemy token price API
+## Current Prices (USD, as of 2026-10-31 ~04:27 UTC)
 
-## Current Prices (USD)
+| Token | Price (USD) | As-of Time (UTC) |
+|-------|-------------|------------------|
+| ETH   | 2240.00     | 2026-10-31T04:27:12Z |
+| BTC   | 77136.17    | 2026-10-31T04:27:10Z |
+| LINK  | 11.403      | 2026-10-31T04:27:12Z |
+| UNI   | 6.9125      | 2026-10-31T04:27:11Z |
+| USDC  | 1.00086     | 2026-10-31T04:27:14Z |
 
-| Token | Price (USD) | As-of (UTC) |
-|-------|-------------|-------------|
-| ETH | 2238.72 | 2026-10-30T20:58:06Z |
-| BTC | 76891.70 | 2026-10-30T20:58:06Z |
-| LINK | 11.161 | 2026-10-30T20:58:08Z |
-| UNI | 6.9216 | 2026-10-30T20:58:06Z |
-| USDC | 1.00162 | 2026-10-30T20:57:00Z |
+## 7-Day Changes (Oct 25 → Oct 31, 2026)
 
-## 7-Day Change (2026-10-24 to 2026-10-30)
-
-| Token | Start Price (USD) | End Price (USD) | 7-Day Change |
-|-------|-------------------|-----------------|--------------|
-| ETH | 2384.75 | 2249.48 | -5.67% |
-| BTC | 81102.31 | 77838.81 | -7.72% |
-| LINK | 11.8174 | 10.6003 | -10.30% |
-| UNI | 6.9556 | 6.4599 | -7.13% |
+| Token | Start (Oct 25) | End (Oct 31) | Weekly Change |
+|-------|----------------|--------------|---------------|
+| ETH   | 2356.57        | 2242.50      | -4.83% |
+| BTC   | 80810.57       | 77223.17     | -4.45% |
+| LINK  | 11.6129        | 11.4462      | -1.41% |
+| UNI   | 6.8598         | 7.1461       | +4.16% |
 
 ## USDC Contract Sanity Check
 
-Treasury sheet lists USDC on Ethereum mainnet at contract `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
-- Price via contract address: $0.9997 (as of 2026-10-30T20:57:37Z)
-- Price via symbol quote: $1.00162 (as of 2026-10-30T20:57:00Z)
-- Difference: $0.00192 — well within the $0.01 tolerance → **AGREES** with the treasury sheet.
+- Treasury-listed contract: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 on eth-mainnet
+- Price via contract address: 0.9997 USD (updated 2026-10-31T04:25:58Z)
+- Price via symbol quote (USDC): 1.00086 USD (updated 2026-10-31T04:27:14Z)
+- Difference: 0.00116 USD — within the $0.01 tolerance, so **the two agree; no mismatch**.
 
-## Summary of the Week's Move
+## Summary
 
-Across the four volatile assets the week was uniformly negative with a broad-based sell-off into the final session: ETH fell from $2,384.75 to $2,249.48 (-5.67%), BTC declined from $81,102.31 to $77,838.81 (-7.72%), LINK dropped from $11.82 to $10.60 (-10.30%), and UNI slipped from $6.96 to $6.46 (-7.13%). Prices ground lower for most of the window, and all four sold off sharply on the last day of the period, so the weekly recap reflects a cautious week across the board. Meanwhile, USDC remained effectively pegged, with the on-chain contract price agreeing with the symbol quote within tolerance.
+Over the past week the market was broadly downside: ETH fell roughly 4.8% from 2356.57 to 2242.50, BTC dropped about 4.4% from 80810.57 to 77223.17, and LINK declined modestly 1.4% from 11.6129 to 11.4462, while UNI was the standout performer, up approximately 4.2% from 6.8598 to 7.1461. USDC price checks via both the symbol quote and the treasury contract address agree within tolerance.
