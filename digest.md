@@ -1,31 +1,32 @@
 # Weekly Token Digest
 
-## Current Prices (USD, as of 2026-10-31 ~04:27 UTC)
+Recap for the team meeting — current USD prices, 7-day price moves, and the USDC treasury sanity check.
 
-| Token | Price (USD) | As-of Time (UTC) |
-|-------|-------------|------------------|
-| ETH   | 2240.00     | 2026-10-31T04:27:12Z |
-| BTC   | 77136.17    | 2026-10-31T04:27:10Z |
-| LINK  | 11.403      | 2026-10-31T04:27:12Z |
-| UNI   | 6.9125      | 2026-10-31T04:27:11Z |
-| USDC  | 1.00086     | 2026-10-31T04:27:14Z |
+## Current Prices (USD)
 
-## 7-Day Changes (Oct 25 → Oct 31, 2026)
+| Token | Price (USD) | As-Of (UTC) |
+|-------|-------------|-------------|
+| ETH   | 2240.00     | 2026-10-31 04:28:01 |
+| BTC   | 77119.43    | 2026-10-31 04:27:59 |
+| LINK  | 11.40       | 2026-10-31 04:28:00 |
+| UNI   | 6.9152      | 2026-10-31 04:27:59 |
+| USDC  | 1.00086     | 2026-10-31 04:28:02 |
 
-| Token | Start (Oct 25) | End (Oct 31) | Weekly Change |
-|-------|----------------|--------------|---------------|
-| ETH   | 2356.57        | 2242.50      | -4.83% |
-| BTC   | 80810.57       | 77223.17     | -4.45% |
-| LINK  | 11.6129        | 11.4462      | -1.41% |
-| UNI   | 6.8598         | 7.1461       | +4.16% |
+## 7-Day Change (2026-10-25 → 2026-10-31)
+
+| Token | Start (USD) | End (USD) | Change |
+|-------|-------------|-----------|--------|
+| ETH   | 2356.57     | 2242.50   | -4.84% |
+| BTC   | 80810.57    | 77223.17  | -4.44% |
+| LINK  | 11.6129     | 11.4462   | -1.44% |
+| UNI   | 6.8598      | 7.1461    | +4.17% |
 
 ## USDC Contract Sanity Check
 
-- Treasury-listed contract: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 on eth-mainnet
-- Price via contract address: 0.9997 USD (updated 2026-10-31T04:25:58Z)
-- Price via symbol quote (USDC): 1.00086 USD (updated 2026-10-31T04:27:14Z)
-- Difference: 0.00116 USD — within the $0.01 tolerance, so **the two agree; no mismatch**.
+- Treasury contract: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 (eth-mainnet)
+- Symbol quote: $1.00086 | Contract-based price: $1.0008
+- Difference: $0.00006 → **AGREE** (within the $0.01 threshold); no mismatch.
 
 ## Summary
 
-Over the past week the market was broadly downside: ETH fell roughly 4.8% from 2356.57 to 2242.50, BTC dropped about 4.4% from 80810.57 to 77223.17, and LINK declined modestly 1.4% from 11.6129 to 11.4462, while UNI was the standout performer, up approximately 4.2% from 6.8598 to 7.1461. USDC price checks via both the symbol quote and the treasury contract address agree within tolerance.
+Over the past week (Oct 25–31, 2026), the broader market sold off: ETH traded down 4.84% from $2,356.57 to $2,242.50, BTC fell 4.44% from $80,810.57 to $77,223.17, and LINK slipped 1.44% from $11.6129 to $11.4462. UNI was the standout performer, up 4.17% from $6.8598 to $7.1461. USDC remained effectively peg-stable at $1.00086 via the symbol quote and $1.0008 via the treasury contract address, agreeing within a fraction of a cent.
