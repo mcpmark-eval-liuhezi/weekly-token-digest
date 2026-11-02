@@ -1,30 +1,30 @@
 # Weekly Token Digest
 
-Market data pulled 2026-10-31 ~04:32 UTC.
+Market data pulled 2026-11-02 ~19:23 UTC.
 
-## Current USD Prices (as of 2026-10-31T04:32:29–31Z)
+## Current USD Prices (as of 2026-11-02T19:21:09–19:23:38Z)
 
 | Token | Price (USD) | As-of (UTC) |
 |-------|-------------|-------------|
-| ETH   | 2,236.69    | 2026-10-31T04:32:31Z |
-| BTC   | 77,178.69   | 2026-10-31T04:32:29Z |
-| LINK  | 11.585      | 2026-10-31T04:32:30Z |
-| UNI   | 6.9024      | 2026-10-31T04:32:30Z |
-| USDC  | 1.00086     | 2026-10-31T04:32:31Z |
+| ETH   | 2,250.90    | 2026-11-02T19:23:38Z |
+| BTC   | 76,841.17   | 2026-11-02T19:23:37Z |
+| LINK  | 11.103      | 2026-11-02T19:23:37Z |
+| UNI   | 7.0586      | 2026-11-02T19:23:35Z |
+| USDC  | 1.00122     | 2026-11-02T19:21:09Z |
 
-## 7-Day Change (2026-10-25 → 2026-10-31, daily closes)
+## 7-Day Change (2026-10-27 → 2026-11-02, daily values)
 
-| Token | 2026-10-25 (USD) | 2026-10-31 (USD) | 7-Day Change |
+| Token | 2026-10-27 (USD) | 2026-11-02 (USD) | 7-Day Change |
 |-------|------------------|------------------|--------------|
-| ETH   | 2,356.57         | 2,242.50         | -4.84%       |
-| BTC   | 80,810.57        | 77,223.17        | -4.44%       |
-| LINK  | 11.6129          | 11.4462          | -1.44%       |
-| UNI   | 6.8598           | 7.1461           | +4.17%       |
+| ETH   | 2,320.67         | 2,273.92         | -2.02%       |
+| BTC   | 80,029.43        | 78,293.84        | -2.17%       |
+| LINK  | 11.3864          | 11.3835          | -0.03%       |
+| UNI   | 7.1434           | 7.2111           | +0.95%       |
 
 ## USDC Contract Check
 
-USDC on Ethereum mainnet at contract 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 was Pulled at 1.0009 USD (2026-10-31T04:32:02Z). The symbol quote is 1.00086 USD (2026-10-31T04:32:31Z). Difference is 0.00004 USD, which is well within the 0.01 USD threshold — **no mismatch; the contract price agrees with the symbol quote.**
+USDC on Ethereum mainnet at contract 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: price by contract = 0.9997 USD (2026-11-02T19:22:32Z); price by symbol = 1.00122 USD (2026-11-02T19:21:09Z). Difference = 0.00152 USD < 0.01 USD threshold — **no mismatch; the contract price agrees with the symbol quote.**
 
 ## Week Summary
 
-All four major cryptocurrencies sold off over the past week, with Ethereum (-4.84%) and Bitcoin (-4.44%)declining the most, while LINK also fell modestly (-1.44%) and UNI was the standout performer at +4.17% — the weekly high of 7.2389 (2026-10-29) preceded a 2026-10-30 selloff to 6.4599 before a partial recovery to 7.1461 on 2026-10-31. USDC remained effectively stable, trading at ~1.0009 USD by contract and ~1.00086 USD by symbol, well within the 0.01 USD tolerance check, confirming no discrepancy in the treasury sheet listing.
+Over the past week ETH (-2.02%), BTC (-2.17%) and LINK (-0.03%) all declined from their 2026-10-27 levels, while UNI was the standout performer (+0.95%). Prices peaked on 2026-10-29 for ETH/BTC/LINK/UNI and sold off sharply on 2026-10-30 (ETH 2249.48, BTC 77838.81, LINK 10.6003, UNI 6.4599), recovering partially by 2026-11-02. USDC remained effectively stable at ~1.00 USD by both symbol and contract, with the two quotes agreeing within the 0.01 USD tolerance, confirming no discrepancy in the treasury sheet listing.
