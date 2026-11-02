@@ -2,14 +2,14 @@
 
 Market data pulled 2026-11-02 ~19:23 UTC.
 
-## Current USD Prices (as of 2026-11-02T19:21:09–19:23:38Z)
+## Current USD Prices (as of 2026-11-02T19:21:09–19:23:48Z)
 
 | Token | Price (USD) | As-of (UTC) |
 |-------|-------------|-------------|
-| ETH   | 2,250.90    | 2026-11-02T19:23:38Z |
-| BTC   | 76,841.17   | 2026-11-02T19:23:37Z |
-| LINK  | 11.103      | 2026-11-02T19:23:37Z |
-| UNI   | 7.0586      | 2026-11-02T19:23:35Z |
+| ETH   | 2,250.90    | 2026-11-02T19:23:48Z |
+| BTC   | 76,847.98   | 2026-11-02T19:23:48Z |
+| LEFK  | 11.154      | 2026-11-02T19:23:48Z |
+| UNI   | 7.0586      | 2026-11-02T19:23:46Z |
 | USDC  | 1.00122     | 2026-11-02T19:21:09Z |
 
 ## 7-Day Change (2026-10-27 → 2026-11-02, daily values)
@@ -27,4 +27,4 @@ USDC on Ethereum mainnet at contract 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48:
 
 ## Week Summary
 
-Over the past week ETH (-2.02%), BTC (-2.17%) and LINK (-0.03%) all declined from their 2026-10-27 levels, while UNI was the standout performer (+0.95%). Prices peaked on 2026-10-29 for ETH/BTC/LINK/UNI and sold off sharply on 2026-10-30 (ETH 2249.48, BTC 77838.81, LINK 10.6003, UNI 6.4599), recovering partially by 2026-11-02. USDC remained effectively stable at ~1.00 USD by both symbol and contract, with the two quotes agreeing within the 0.01 USD tolerance, confirming no discrepancy in the treasury sheet listing.
+Over the past 7 days (2026-10-27 → 2026-11-02), ETH fell ~2.02% (2,320.67 → 2,273.92), BTC declined ~2.17% (80,029.43 → 78,293.84), and LINK was essentially flat at ~-0.03% (11.3864 → 11.3835), while UNI was the standout at +0.95% (7.1434 → 7.2111). The week peaked on 2026-10-29 and sold off sharply on 2026-10-30 (ETH 2,249.48, BTC 77,838.81, LINK 10.6003, UNI 6.4599), recovering partially by 2026-11-02. USDC remained stable at ~1.00 USD: the contract quote (0.9997) and symbol quote (1.00122) differ by only 0.00152 USD, well within the 0.01 tolerance, so the treasury sheet's USDC price agrees with the on-chain contract price. Current prices: ETH 2,250.90, BTC 76,847.98, LINK 11.154, UNI 7.0586, USDC 1.00122 USD.
